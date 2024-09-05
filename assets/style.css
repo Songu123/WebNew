@@ -1,0 +1,43 @@
+.dau a ::after {
+    content: " |"; /* Thêm dấu | vào sau mỗi chữ */
+    color: inherit; /* Giữ nguyên màu sắc như của chữ */
+    margin-left: 5px; /* Khoảng cách giữa chữ và dấu | */
+}
+
+.dau a :last-child::after {
+    content: ""; /* Loại bỏ dấu | sau phần tử cuối */
+}
+
+.banner {
+    height: 100px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.bg-hover:hover {
+    background: #7e844c;
+    transition: ease-in-out .2s;
+}
+
+.bg-hover:hover a {
+    color: #f1eaea;
+}
+
+.hello:hover a {
+    color: #cf2929 !important;
+}
+
+.type-after a::after {
+    content: " |";
+    color: rgb(15, 14, 15);
+    margin-left: 5px;
+}
+
+.tintuc:hover {
+    color: #525d7f !important;
+    transition: ease-in-out .2s;
+}
