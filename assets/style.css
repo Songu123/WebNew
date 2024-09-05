@@ -38,6 +38,7 @@
 }
 
 .tintuc:hover {
+    cursor: pointer;
     color: #525d7f !important;
     transition: ease-in-out .2s;
 }
